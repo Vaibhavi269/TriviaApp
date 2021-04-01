@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/welcome_to_trivia_game"
+        android:textSize="26sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="colorTrivia"
+        android:text="@string/colors"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="animalTrivia"
+        android:text="@string/animals"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/settings"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="16dp" />
+
+    <TextView
+        android:id="@+id/num_choices_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/num_choices_sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="3"
+        android:progress="2" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="welcome_to_trivia_game">welcome to trivia game</string>
+    <string name="colors">colors</string>
+    <string name="animals">animals</string>
+    <string name="settings">settings</string>
+    <string name="question_image">question image</string>
+    <string name="first_choice">first_choice</string>
+    <string name="second_choice">second choice</string>
+    <string name="third_choice">third choice</string>
+    <string name="fourth_choice">fourth choice</string>
+    <string name="skip">skip</string>
+</resources>

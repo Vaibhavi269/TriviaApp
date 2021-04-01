@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityColor">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="24dp" />
+
+    <ImageView
+        android:id="@+id/question_iv"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/purple"
+        android:contentDescription="@string/question_image" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="24dp" />
+
+    <Button
+        android:id="@+id/first_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_choice"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/second_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/second_choice"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/third_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/third_choice"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/fourth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fourth_choice"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/skip_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingStart="64dp"
+        android:paddingEnd="64dp"
+        android:text="@string/skip"
+        android:textSize="18sp"
+        android:textAllCaps="false" />
+
+</LinearLayout>
